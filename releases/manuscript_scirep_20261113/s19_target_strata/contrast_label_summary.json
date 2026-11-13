@@ -1,0 +1,309 @@
+{
+  "A": {
+    "exaone": {
+      "changed_from_A": 0,
+      "changed_share": 0.0,
+      "hate": 6424,
+      "hate_share": 0.2720304890959136,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.6984126984126984,
+          "human_002": 0.6825396825396826,
+          "human_003": 0.6190476190476191,
+          "human_004": 0.7142857142857143
+        },
+        "n": 63
+      },
+      "native_2000": {
+        "fn": 237,
+        "fp": 275,
+        "hate_f1": 0.7487733071638861,
+        "macro_f1": 0.743907550625776,
+        "tn": 725,
+        "tp": 763
+      },
+      "rows": 23615,
+      "to_hate": 0,
+      "to_hate_A_general_attack": 0,
+      "to_hate_A_no_attack": 0,
+      "to_non_hate": 0,
+      "to_non_hate_A_score_1": 0,
+      "to_non_hate_A_score_2": 0
+    },
+    "gemma4": {
+      "changed_from_A": 0,
+      "changed_share": 0.0,
+      "hate": 7016,
+      "hate_share": 0.29687301654466214,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.75,
+          "human_002": 0.75,
+          "human_003": 0.75,
+          "human_004": 0.8571428571428571
+        },
+        "n": 56
+      },
+      "native_2000": {
+        "fn": 390,
+        "fp": 157,
+        "hate_f1": 0.6904357668364459,
+        "macro_f1": 0.7227369161096695,
+        "tn": 843,
+        "tp": 610
+      },
+      "rows": 23633,
+      "to_hate": 0,
+      "to_hate_A_general_attack": 0,
+      "to_hate_A_no_attack": 0,
+      "to_non_hate": 0,
+      "to_non_hate_A_score_1": 0,
+      "to_non_hate_A_score_2": 0
+    }
+  },
+  "classifier_predictions_read": false,
+  "conditions": {
+    "exaone_N": {
+      "changed_from_A": 9664,
+      "changed_share": 0.40923142070717766,
+      "hate": 15086,
+      "hate_share": 0.6388312513233114,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.42857142857142855,
+          "human_002": 0.6031746031746031,
+          "human_003": 0.49206349206349204,
+          "human_004": 0.5238095238095238
+        },
+        "n": 63
+      },
+      "native_2000": {
+        "fn": 124,
+        "fp": 560,
+        "hate_f1": 0.7192118226600985,
+        "macro_f1": 0.6409358346037066,
+        "tn": 440,
+        "tp": 876
+      },
+      "rows": 23615,
+      "to_hate": 9163,
+      "to_hate_A_general_attack": 6449,
+      "to_hate_A_no_attack": 2714,
+      "to_non_hate": 501,
+      "to_non_hate_A_score_1": 165,
+      "to_non_hate_A_score_2": 336
+    },
+    "exaone_N13": {
+      "changed_from_A": 5858,
+      "changed_share": 0.2480626720304891,
+      "hate": 8222,
+      "hate_share": 0.3481685369468558,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.6507936507936508,
+          "human_002": 0.6349206349206349,
+          "human_003": 0.6031746031746031,
+          "human_004": 0.5714285714285714
+        },
+        "n": 63
+      },
+      "native_2000": {
+        "fn": 302,
+        "fp": 324,
+        "hate_f1": 0.6904055390702275,
+        "macro_f1": 0.6869621224168124,
+        "tn": 676,
+        "tp": 698
+      },
+      "rows": 23615,
+      "to_hate": 3828,
+      "to_hate_A_general_attack": 3102,
+      "to_hate_A_no_attack": 726,
+      "to_non_hate": 2030,
+      "to_non_hate_A_score_1": 172,
+      "to_non_hate_A_score_2": 1858
+    },
+    "exaone_O": {
+      "changed_from_A": 6643,
+      "changed_share": 0.28130425576963797,
+      "hate": 13067,
+      "hate_share": 0.5533347448655516,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.47619047619047616,
+          "human_002": 0.5079365079365079,
+          "human_003": 0.47619047619047616,
+          "human_004": 0.5079365079365079
+        },
+        "n": 63
+      },
+      "native_2000": {
+        "fn": 103,
+        "fp": 492,
+        "hate_f1": 0.7509418166596903,
+        "macro_f1": 0.6908030001982499,
+        "tn": 508,
+        "tp": 897
+      },
+      "rows": 23615,
+      "to_hate": 6643,
+      "to_hate_A_general_attack": 6643,
+      "to_hate_A_no_attack": 0,
+      "to_non_hate": 0,
+      "to_non_hate_A_score_1": 0,
+      "to_non_hate_A_score_2": 0
+    },
+    "exaone_R": {
+      "changed_from_A": 1180,
+      "changed_share": 0.04996824052508998,
+      "hate": 6742,
+      "hate_share": 0.2854965064577599,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.6825396825396826,
+          "human_002": 0.6984126984126984,
+          "human_003": 0.6349206349206349,
+          "human_004": 0.6984126984126984
+        },
+        "n": 63
+      },
+      "native_2000": {
+        "fn": 221,
+        "fp": 301,
+        "hate_f1": 0.7490384615384615,
+        "macro_f1": 0.7385817307692308,
+        "tn": 699,
+        "tp": 779
+      },
+      "rows": 23615,
+      "to_hate": 749,
+      "to_hate_A_general_attack": 420,
+      "to_hate_A_no_attack": 329,
+      "to_non_hate": 431,
+      "to_non_hate_A_score_1": 106,
+      "to_non_hate_A_score_2": 325
+    },
+    "gemma4_N": {
+      "changed_from_A": 5216,
+      "changed_share": 0.22070833157026193,
+      "hate": 9572,
+      "hate_share": 0.40502686920831044,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.6607142857142857,
+          "human_002": 0.7142857142857143,
+          "human_003": 0.6785714285714286,
+          "human_004": 0.8035714285714286
+        },
+        "n": 56
+      },
+      "native_2000": {
+        "fn": 524,
+        "fp": 143,
+        "hate_f1": 0.5880172946263126,
+        "macro_f1": 0.6539414486571293,
+        "tn": 857,
+        "tp": 476
+      },
+      "rows": 23633,
+      "to_hate": 3886,
+      "to_hate_A_general_attack": 3810,
+      "to_hate_A_no_attack": 76,
+      "to_non_hate": 1330,
+      "to_non_hate_A_score_1": 680,
+      "to_non_hate_A_score_2": 650
+    },
+    "gemma4_N13": {
+      "changed_from_A": 3009,
+      "changed_share": 0.12732196504887233,
+      "hate": 8635,
+      "hate_share": 0.36537891930774763,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.6071428571428571,
+          "human_002": 0.8214285714285714,
+          "human_003": 0.625,
+          "human_004": 0.7678571428571429
+        },
+        "n": 56
+      },
+      "native_2000": {
+        "fn": 159,
+        "fp": 294,
+        "hate_f1": 0.7878220140515223,
+        "macro_f1": 0.7724632858461364,
+        "tn": 706,
+        "tp": 841
+      },
+      "rows": 23633,
+      "to_hate": 2314,
+      "to_hate_A_general_attack": 1528,
+      "to_hate_A_no_attack": 786,
+      "to_non_hate": 695,
+      "to_non_hate_A_score_1": 246,
+      "to_non_hate_A_score_2": 449
+    },
+    "gemma4_O": {
+      "changed_from_A": 8627,
+      "changed_share": 0.3650404095967503,
+      "hate": 15643,
+      "hate_share": 0.6619134261414125,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.42857142857142855,
+          "human_002": 0.6071428571428571,
+          "human_003": 0.48214285714285715,
+          "human_004": 0.5714285714285714
+        },
+        "n": 56
+      },
+      "native_2000": {
+        "fn": 111,
+        "fp": 574,
+        "hate_f1": 0.7218838814453918,
+        "macro_f1": 0.6381052458625789,
+        "tn": 426,
+        "tp": 889
+      },
+      "rows": 23633,
+      "to_hate": 8627,
+      "to_hate_A_general_attack": 8627,
+      "to_hate_A_no_attack": 0,
+      "to_non_hate": 0,
+      "to_non_hate_A_score_1": 0,
+      "to_non_hate_A_score_2": 0
+    },
+    "gemma4_R": {
+      "changed_from_A": 917,
+      "changed_share": 0.03880167562306944,
+      "hate": 7495,
+      "hate_share": 0.31714128549062753,
+      "human_audit_agreement": {
+        "agreement": {
+          "human_001": 0.7142857142857143,
+          "human_002": 0.75,
+          "human_003": 0.6964285714285714,
+          "human_004": 0.8392857142857143
+        },
+        "n": 56
+      },
+      "native_2000": {
+        "fn": 378,
+        "fp": 162,
+        "hate_f1": 0.6973094170403588,
+        "macro_f1": 0.7268135532855223,
+        "tn": 838,
+        "tp": 622
+      },
+      "rows": 23633,
+      "to_hate": 698,
+      "to_hate_A_general_attack": 664,
+      "to_hate_A_no_attack": 34,
+      "to_non_hate": 219,
+      "to_non_hate_A_score_1": 137,
+      "to_non_hate_A_score_2": 82
+    }
+  },
+  "schema_version": 1,
+  "scope": "guideline_control_labels"
+}
