@@ -1,6 +1,6 @@
 # Manuscript materials — 13 November 2026
 
-These files accompany *Relabeling translated hate-speech data with LLMs under target definitions reduces false positives on interpersonal insults*. They add the aggregate results behind Supplementary Sections S19 and S20 to the analysis companion in [`../manuscript_20261019/`](../manuscript_20261019/README.md), which holds the results for the other sections.
+These files accompany *Relabeling translated hate-speech data with LLMs under target definitions reduces relative false positives on non-group-directed attacks*. They add the aggregate results behind Supplementary Sections S19 and S20 to the analysis companion in [`../manuscript_20261019/`](../manuscript_20261019/README.md), which holds the results for the other sections.
 
 | File | Contents | Supplementary section |
 |---|---|---|
